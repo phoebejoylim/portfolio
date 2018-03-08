@@ -19,12 +19,20 @@
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="projects/wnba.html" class="nav-link">Case Study 1</a></li>
+            <li><a href="projects/aesop.html" class="nav-link">Case Study 2</a></li>
+            <li><a href="styleguide.html" class="nav-link">Style Guide</a></li>
+            <li><a href="citations.html" class="nav-link">Citations</a></li>
+        </ul>
+    </header>
     <div class="container">
         <!-- start of header container -->
         <h1>Style Guide</h1>
 
-        <p>These are some key features that represent me in my portfolio.
-            <br> Everything in this styleguide is meant to be thoughtful, fun, and unafraid of colour. </p>
+        <p>These are some key features that represent me in my portfolio.<br>Everything in this styleguide is meant to be thoughtful, fun, and unafraid of colour. </p>
 
 
         <nav>
@@ -43,12 +51,6 @@
                     <a href="#combined_elements">Combined Elements</a>
                 </li>
             </ul>
-
-            <p>Other pages:</p>
-            <ul>
-                <li><a href="Style_guide.html">Style Guide</a>
-                    <li><a href="Citations.html">Citations</a>
-            </ul>
         </nav>
     </div>
     <!-- end of header -->
@@ -63,19 +65,19 @@
             <!-- Default Button styling section -->
             <section>
 
-                <h2>Navigation Button</h2>
+                <h2>Navigation</h2>
 
                 <h3>CSS selector:</h3>
-                <p>.button-nav</p>
+                <p>.nav-link</p>
 
                 <h3>Sample code:</h3>
-                <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+                <code>&lt;a href="#" class="nav-link"&gt;Homepage&lt;/a&gt;</code>
 
                 <h3>Rendered element:</h3>
-                <a class="button-nav" href="#">Default Button</a>
+                <a class="nav-link" href="#">Homepage</a>
 
             </section>
-
+            <hr>
             <section>
                 <h2>In-text link</h2>
 
@@ -90,7 +92,7 @@
                 <p>This is just an ordinary paragraph. Nothin' special. Just move along to <a href="#">This sick link.</a></p>
 
             </section>
-
+            <hr>
             <section>
                 <h2>Submit/Reset Buttons</h2>
 
@@ -103,11 +105,11 @@
                 <h3>Rendered element:</h3>
                 <input type="submit" value="Send Request">
             </section>
-
+            <hr>
             <section>
                 <h2>Text Input Field</h2>
-                
-                  <h3>CSS selector:</h3>
+
+                <h3>CSS selector:</h3>
                 <p>input[type=text]</p>
 
                 <h3>Sample code:</h3>
@@ -116,50 +118,105 @@
                 <h3>Rendered element:</h3>
                 <input type="text">
             </section>
-
         </section>
         <!-- // INTERACTIVE ELEMENTS SECTION -->
 
-
+        <hr>
 
         <!-- TEXT ELEMENTS SECTION // -->
         <section id="text_elements">
 
             <section>
                 <h2>Headings</h2>
-            </section>
 
+                <!--H1 heading-->
+                <h3>CSS selector:</h3>
+                <p>H1</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;h1&gt;&lt;/h1&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <h1>This is an h1 heading</h1>
+
+                <!--h2 heading-->
+                <h3>CSS selector:</h3>
+                <p>H2</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;h2&gt;&lt;/h2&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <h2>This is an h2 heading</h2>
+
+                <!--h3 heading-->
+                <h3>CSS selector:</h3>
+                <p>H3</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;h3&gt;&lt;/h3&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <h3>This is an h3 heading</h3>
+            </section>
+            <hr>
             <section>
                 <h2>Paragraphs</h2>
-            </section>
 
+                <h3>CSS selector:</h3>
+                <p>p</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;p&gt;&lt;/p&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <p>This is a paragraph! Beagle german shephard lab down play dead chihuahua great dance fetch shih tzu shih tzu, fetch tennis ball doberman pinscher german shephard. Maltese beagle leash leash bark dog toy, dachshund catch leave it take it bark. Bring it poodle down bark rottweiler dog toy lap dog stay. K9 dachshund leash leap jump bulldog rottweiler. Dachshund kibbles chihuahua kibbles vet shake chew toy yorkshire terrier. Come st bernard puppies bell dog house bark sit pretty. Beagle speak leave it chew toy, collar lap dog greyhound paw leash lap dog squeak toy. Chew toy lap dog catch tail rottweiler sit pretty kong chihuahua bulldog. Bulldog bang release dog bone tail, collar collar dog house fetch leap.</p>
+            </section>
+            <hr>
             <section>
                 <h2>Bulleted Lists</h2>
-            </section>
 
+                <h3>CSS selector:</h3>
+                <p>ul, li</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;ul&gt; <br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;/ul&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                </ul>
+            </section>
+            <hr>
             <section>
                 <h2>Numbered Lists</h2>
-            </section>
 
+                <h3>CSS selector:</h3>
+                <p>ol, li</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;ol&gt; <br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;/ol&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <ol>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                </ol>
+            </section>
+            <hr>
         </section>
         <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-        <!-- COMBINED ELEMENTS SECTION // -->
-        <section id="combined_elements">
-
-            <section>
-                <h2>Main Navigation</h2>
-            </section>
-
-            <section>
-                <h2>Product Listing</h2>
-            </section>
-
-        </section>
-        <!-- // COMBINED ELEMENTS SECTION -->
-
 
     </div>
     <!-- end of main container -->
