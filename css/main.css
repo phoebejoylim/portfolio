@@ -9,6 +9,7 @@ header{
   z-index: 9999;
   height: 10rem;
 }
+
 header ul{
     list-style: none;
 }
@@ -122,7 +123,8 @@ img {
     transition: all 0.3s ease 0s;
 }
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.current-nav-link{
     opacity: .65;
 }
 
