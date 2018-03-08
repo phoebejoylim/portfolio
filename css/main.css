@@ -1,29 +1,50 @@
 body {
-    font-family: 'Nanum Gothic 400', sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     margin: 0;
 }
-header{
-  position: fixed;
-  top: 0;
-  right: 5%;
-  z-index: 9999;
-  height: 10rem;
+header {
+    position: fixed;
+    top: 0;
+    right: 5%;
+    z-index: 9999;
+    height: 10rem;
 }
-
-header ul{
+header ul {
     list-style: none;
 }
 h1 {
     font-family: 'Lustria', serif;
     color: #FC6D5C;
+    line-height: normal;
 }
 h2 {
     font-family: 'Lustria', serif;
     color: #142146;
+    line-height: 1rem;
 }
 h3 {
-    font-family: 'Nanum Gothic 800', sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     color: #FC6D5C;
+    line-height: normal;
+}
+* {
+    font-family: Lato, Helvetica, sans-serif;
+    color: #333447;
+    line-height: 1.5;
+}
+p {
+    line-height: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 200;
+}
+.font-light {
+    font-weight: 300
+}
+.font-regular {
+    font-weight: 400
+}
+.font-heavy {
+    font-weight: 700
 }
 a:link {
     transition: all 0.3s ease 0s;
@@ -95,12 +116,11 @@ input[type=text]:focus {
 img {
     width: 100%;
 }
+
+/*
 .bg {
-    /* The image used */
     background-image: url("../img/header-bg.png");
-    /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,6 +128,8 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+*/
+
 
 /* Styling for the navigation button */
 
@@ -124,8 +146,30 @@ img {
 }
 .nav-link:hover,
 .nav-link:focus,
-.current-nav-link{
+.current-nav-link {
     opacity: .65;
+}
+.custom-counter {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+.custom-counter li {
+    counter-increment: step-counter;
+        margin-bottom: 2rem;
+}
+.custom-counter li::before {
+    content: counter(step-counter, decimal-leading-zero);
+    font-size: 1rem;
+    color: #FC6D5C;
+    font-weight: bold;
+}
+.custom-counter p {
+    display: inline; 
+}
+
+ul{
+    list-style-type: circle;
 }
 
 /*--------------------------------Media Queries----------------------------------*/
