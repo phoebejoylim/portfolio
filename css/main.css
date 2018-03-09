@@ -20,7 +20,7 @@ h1 {
 h2 {
     font-family: 'Lustria', serif;
     color: #142146;
-    line-height: 1rem;
+    line-height: auto;
 }
 h3 {
     font-family: Lato, Helvetica, sans-serif;
