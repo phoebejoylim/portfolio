@@ -6,27 +6,46 @@
     <title>Phoebe Joy Lim | P O R T F O L I O</title>
 
     <!--All linked stylesheets-->
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/flexbox.css">
-    <link rel="stylesheet" href="../css/simple-grid.css">
-    <link rel="stylesheet" href="../css/simple-grid.min.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link rel="stylesheet" href="css/simple-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lustria|Lato" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="css/simplemenu.css">
 </head>
 
 <body>
+    <!--
     <header>
-        <ul>
-            <li><a href="index.html" class="nav-link current-nav-link">Home</a></li>
-            <li><a href="projects/wnba.html" class="nav-link">Case Study: WNBA</a></li>
-            <li><a href="projects/aesop.html" class="nav-link">Case Study: Aesop</a></li>
-            <li><a href="styleguide.html" class="nav-link">Style Guide</a></li>
-            <li><a href="citations.html" class="nav-link">Citations</a></li>
-            <li><a href="about.html" class="nav-link">About Me</a>
-        </ul>
+        
     </header>
+-->
+    <div class="container">
+        <!-- THIS IS THE MENU -->
+
+        <div class="mobilenav">
+            <ul>
+                <li><a href="index.html" class="nav-link current-nav-link">Home</a></li>
+                <li><a href="projects/wnba.html" class="nav-link">Case Study: WNBA</a></li>
+                <li><a href="projects/aesop.html" class="nav-link">Case Study: Aesop</a></li>
+                <li><a href="styleguide.html" class="nav-link">Style Guide</a></li>
+                <li><a href="citations.html" class="nav-link">Citations</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a>
+            </ul>
+        </div>
+        <!-- THIS IS THE ICON -->
+
+        <a href="javascript:void(0)" class="icon">
+            <div class="hamburger">
+                <div class="menui top-menu"></div>
+                <div class="menui mid-menu"></div>
+                <div class="menui bottom-menu"></div>
+            </div>
+        </a>
+    </div>
+
+
     <div class="container">
         <h1>Phoebe Joy Lim</h1>
         <div class="row">
@@ -51,6 +70,12 @@
             </div>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+    </script>
+    <script src="js/simplemenu.js">
+    </script>
+
 </body>
 
 </html>
