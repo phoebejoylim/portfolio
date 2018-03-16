@@ -117,20 +117,6 @@ img {
     width: 100%;
 }
 
-/*
-.bg {
-    background-image: url("../img/header-bg.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-*/
-
-
 /* Styling for the navigation button */
 
 .nav-link {
