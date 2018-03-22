@@ -53,6 +53,13 @@ a:hover,
 a:focus {
     color: #FC6D5C;
 }
+h2 a {
+    font-family: 'Lustria', serif;
+    color: #142146;
+    line-height: auto;
+    text-decoration: none;
+}
+
 nav {
     margin-bottom: 1em;
     padding-bottom: 1em;
@@ -160,6 +167,14 @@ ul{
 
 .indent{
     padding-left: 2rem;
+}
+
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
 }
 
 /*--------------------------------Media Queries----------------------------------*/
