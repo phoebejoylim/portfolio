@@ -12,6 +12,13 @@ header {
 header ul {
     list-style: none;
 }
+footer p {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    background-color: #FFF0F0;
+    padding: 1rem;
+}
 h1 {
     font-family: 'Lustria', serif;
     color: #FC6D5C;
@@ -59,7 +66,6 @@ h2 a {
     line-height: auto;
     text-decoration: none;
 }
-
 nav {
     margin-bottom: 1em;
     padding-bottom: 1em;
@@ -124,7 +130,7 @@ img {
     width: 100%;
 }
 
-/* Styling for the navigation button */
+/*--------------------------------Navigation----------------------------------*/
 
 .nav-link {
     display: inline-block;
@@ -158,23 +164,25 @@ img {
     font-weight: bold;
 }
 .custom-counter p {
-    display: inline; 
+    display: inline;
 }
-
-ul{
+ul {
     list-style-type: circle;
 }
-
-.indent{
+.indent {
     padding-left: 2rem;
 }
-
 .blur-filter {
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
     filter: blur(2px);
+}
+
+/*--------------------------------Section Spacing----------------------------------*/
+.section{
+    margin-bottom: 4rem;
 }
 
 /*--------------------------------Media Queries----------------------------------*/
