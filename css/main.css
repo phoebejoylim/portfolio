@@ -27,15 +27,18 @@ h1 {
 h2 {
     font-family: 'Lustria', serif;
     color: #142146;
+    margin: 0;
 }
 h3 {
     font-family: Lato, Helvetica, sans-serif;
     color: #FC6D5C;
     line-height: normal;
+    margin-top: 0;
 }
 p {
     line-height: 1.5rem;
     font-weight: 200;
+    margin-top: 0;
 }
 .font-light {
     font-weight: 300
@@ -46,7 +49,7 @@ p {
 .font-heavy {
     font-weight: 700
 }
-a:link {
+a:link, a:visited {
     transition: all 0.3s ease 0s;
     text-decoration: underline;
     color: #FC6D5C;
@@ -54,15 +57,18 @@ a:link {
 a:hover,
 a:focus {
     text-decoration: none;
+    cursor: crosshair;
 }
-h1 a:link, h1 a:visited{
+h1 a:link,
+h1 a:visited {
     font-family: 'Lustria', serif;
     color: #FC6D5C;
     line-height: normal;
     text-decoration: none;
     transition: none;
 }
-h2 a:link, h2 a:visited{
+h2 a:link,
+h2 a:visited {
     font-family: 'Lustria', serif;
     color: #142146;
     text-decoration: none;
@@ -76,7 +82,6 @@ nav a:hover,
 nav a:focus {
     text-decoration: none;
 }
-
 section code {
     background-color: #EEE;
     padding: 0.5em 0.75em;
@@ -129,6 +134,9 @@ input[type=text]:focus {
 img {
     width: 100%;
 }
+.video {
+    left: -1px;
+}
 
 /*--------------------------------Navigation----------------------------------*/
 
@@ -179,11 +187,8 @@ ul {
     -ms-filter: blur(2px);
     filter: blur(2px);
 }
-
-/*--------------------------------Section Spacing----------------------------------*/
-
 .section {
-    margin-bottom: 4rem;
+    margin-bottom: 5%;
 }
 
 /*--------------------------------Media Queries----------------------------------*/
@@ -226,7 +231,7 @@ ul {
         font-size: 1.15rem;
     }
     p {
-       font-size: 1rem;
+        font-size: 1rem;
         font-weight: 300
     }
 }
@@ -268,7 +273,7 @@ ul {
         font-size: 1rem;
     }
     p {
-       font-size: 1rem;
+        font-size: 1rem;
         font-weight: 300
     }
 }
@@ -289,7 +294,7 @@ ul {
         font-size: 1rem;
     }
     p {
-      font-size: 1rem;
+        font-size: 1rem;
         font-weight: 300
     }
 }
@@ -310,7 +315,7 @@ ul {
         font-size: 1rem;
     }
     p {
-       font-size: .9rem;
+        font-size: .9rem;
         font-weight: 300
     }
 }
