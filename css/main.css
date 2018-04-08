@@ -27,7 +27,6 @@ h1 {
 h2 {
     font-family: 'Lustria', serif;
     color: #142146;
-    line-height: auto;
 }
 h3 {
     font-family: Lato, Helvetica, sans-serif;
@@ -36,7 +35,6 @@ h3 {
 }
 p {
     line-height: 1.5rem;
-    font-size: 1.125rem;
     font-weight: 200;
 }
 .font-light {
@@ -50,10 +48,12 @@ p {
 }
 a:link {
     transition: all 0.3s ease 0s;
+    text-decoration: underline;
+    color: #FC6D5C;
 }
 a:hover,
 a:focus {
-    color: #FC6D5C;
+    text-decoration: none;
 }
 h1 a:link, h1 a:visited{
     font-family: 'Lustria', serif;
@@ -62,10 +62,9 @@ h1 a:link, h1 a:visited{
     text-decoration: none;
     transition: none;
 }
-h2 a {
+h2 a:link, h2 a:visited{
     font-family: 'Lustria', serif;
     color: #142146;
-    line-height: auto;
     text-decoration: none;
 }
 nav {
@@ -95,7 +94,6 @@ input[type=submit] {
     padding: 10px 16px 10px 16px;
     background: #fff;
     border: 2px solid;
-    border-color: #FC6D5C;
     outline: none;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -108,7 +106,6 @@ input[type=submit]:focus {
     padding: 10px 16px 10px 16px;
     background: #FC6D5C;
     border: 2px solid;
-    border-color: #FC6D5C;
     outline: none;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -127,7 +124,7 @@ input[type=text]:active,
 input[type=text]:focus {
     outline: 2px solid;
     outline-color: #142146;
-    background-color: none;
+    background-color: #ffffff;
 }
 img {
     width: 100%;
@@ -209,6 +206,7 @@ ul {
     }
     p {
         font-size: 1rem;
+        font-weight: 300
     }
 }
 
@@ -228,7 +226,8 @@ ul {
         font-size: 1.15rem;
     }
     p {
-        font-size: 1rem;
+       font-size: 1rem;
+        font-weight: 300
     }
 }
 
@@ -248,7 +247,8 @@ ul {
         font-size: 1rem;
     }
     p {
-        font-size: .9rem;
+        font-size: 1rem;
+        font-weight: 300
     }
 }
 
@@ -268,7 +268,8 @@ ul {
         font-size: 1rem;
     }
     p {
-        font-size: .9rem;
+       font-size: 1rem;
+        font-weight: 300
     }
 }
 
@@ -288,7 +289,8 @@ ul {
         font-size: 1rem;
     }
     p {
-        font-size: .9rem;
+      font-size: 1rem;
+        font-weight: 300
     }
 }
 
@@ -308,6 +310,7 @@ ul {
         font-size: 1rem;
     }
     p {
-        font-size: .9rem;
+       font-size: .9rem;
+        font-weight: 300
     }
 }
